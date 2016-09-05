@@ -1,0 +1,81 @@
+{
+  "_args": [
+    [
+      "@angular2-material/icon@^2.0.0-alpha.7-4",
+      "C:\\Users\\Mark\\Documents\\Visual Studio 2015\\Projects\\Angular2TestProject\\src\\Angular2TestProject"
+    ]
+  ],
+  "_from": "@angular2-material/icon@>=2.0.0-alpha.7-4 <3.0.0-0",
+  "_id": "@angular2-material/icon@2.0.0-alpha.8-1",
+  "_inCache": true,
+  "_location": "/@angular2-material/icon",
+  "_nodeVersion": "5.4.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/icon-2.0.0-alpha.8-1.tgz_1472853763128_0.7961026637349278"
+  },
+  "_npmUser": {
+    "email": "angular-core+npm@google.com",
+    "name": "angular2-material"
+  },
+  "_npmVersion": "3.10.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "@angular2-material/icon",
+    "raw": "@angular2-material/icon@^2.0.0-alpha.7-4",
+    "rawSpec": "^2.0.0-alpha.7-4",
+    "scope": "@angular2-material",
+    "spec": ">=2.0.0-alpha.7-4 <3.0.0-0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@angular2-material/icon/-/icon-2.0.0-alpha.8-1.tgz",
+  "_shasum": "17ddca75a081c9ab8807c2fa2c1bb130b02b0a3b",
+  "_shrinkwrap": null,
+  "_spec": "@angular2-material/icon@^2.0.0-alpha.7-4",
+  "_where": "C:\\Users\\Mark\\Documents\\Visual Studio 2015\\Projects\\Angular2TestProject\\src\\Angular2TestProject",
+  "bugs": {
+    "url": "https://github.com/angular/material2/issues"
+  },
+  "dependencies": {},
+  "description": "Angular 2 Material icon",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "17ddca75a081c9ab8807c2fa2c1bb130b02b0a3b",
+    "tarball": "https://registry.npmjs.org/@angular2-material/icon/-/icon-2.0.0-alpha.8-1.tgz"
+  },
+  "homepage": "https://github.com/angular/material2#readme",
+  "installable": true,
+  "keywords": [
+    "angular",
+    "components",
+    "icon",
+    "material",
+    "material design"
+  ],
+  "license": "MIT",
+  "main": "./icon.umd.js",
+  "maintainers": [
+    {
+      "name": "angular2-material",
+      "email": "angular-core+npm@google.com"
+    }
+  ],
+  "module": "./index.js",
+  "name": "@angular2-material/icon",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@angular/http": "2.0.0-rc.6",
+    "@angular2-material/core": "2.0.0-alpha.8-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/material2.git"
+  },
+  "scripts": {},
+  "typings": "./index.d.ts",
+  "version": "2.0.0-alpha.8-1"
+}

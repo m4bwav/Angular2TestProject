@@ -20,14 +20,16 @@ gulp.task("scriptsNStyles", () => {
             '@angular/**',
             'jquery/dist/jquery.*js',
             'bootstrap/dist/js/bootstrap.*js',
-            '@angular2-material/**/*',
+            '@angular2-material/**/*'
     ], {
         cwd: "node_modules/**"
     })
         .pipe(gulp.dest("./wwwroot/libs"));
 });
 
-var tsProject = ts.createProject('scripts/tsconfig.json');
+var tsProject = ts.createProject('scripts/tsconfig.json', {
+    typescript: require('typescript')
+});
 gulp.task('ts', function (done) {
     //var tsResult = tsProject.src()
     var tsResult = gulp.src([

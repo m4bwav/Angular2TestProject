@@ -11,13 +11,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var app_1 = require('./app');
-var card_1 = require('@angular2-material/card');
+//import Core = require("../wwwroot/libs/@angular2-material/core/core");
+//import Card = require("../wwwroot/libs/@angular2-material/card/card");
+//import { MdCoreModule } from '@angular2-material/core';
+//import { MdCardModule } from '@angular2-material/card';
+//import { MdButtonModule } from '@angular2-material/button';
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule, card_1.MdCardModule],
+            //imports: [BrowserModule, MdButtonModule],
+            //imports: [BrowserModule, MdCoreModule],
+            //imports: [BrowserModule, MdCoreModule, MdCardModule],
+            imports: [platform_browser_1.BrowserModule],
             declarations: [app_1.AppComponent],
             bootstrap: [app_1.AppComponent]
         }), 
@@ -26,3 +33,4 @@ var AppModule = (function () {
     return AppModule;
 }());
 exports.AppModule = AppModule;
+//# sourceMappingURL=app.module.js.map

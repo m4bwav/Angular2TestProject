@@ -149,7 +149,14 @@
     // Most environments should use UMD; some (Karma) need the individual index files
     var setMaterialsPackageConfig = System.packageWithIndex ? MpackIndex : MpackUmd;
     // Add package entries for angular packages
-    ngMaterialPackageNames.forEach(setMaterialsPackageConfig);
+    //ngMaterialPackageNames.forEach(setMaterialsPackageConfig);
+    ngMaterialPackageNames.forEach(name => {
+        packages[`@angular2-material/${name}`] = {
+            format: 'cjs',
+            defaultExtension: 'js',
+            main: `${name}.js`,
+        };
+    });
     var Materialconfig = {
         map: Materialmap,
         packages: materialpackages

@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "ng2testapp",
+  "name": "angular2testproject",
   "description": "an experiment",
   "scripts": {
     "postinstall": "typings install --global",
